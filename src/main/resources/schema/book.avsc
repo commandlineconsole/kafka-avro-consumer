@@ -1,0 +1,10 @@
+{
+	"namespace": "com.mobile.shc.avroTest",
+	"type": "record",
+	"name": "Book",
+	"fields": [
+		{"name": "name", "type": "string"},
+		{"name": "id",  "type": ["int", "null"]},
+		{"name": "category", "type": ["string", "null"]}
+	 ]
+}
